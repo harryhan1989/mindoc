@@ -14,5 +14,6 @@ RUN  go get -d ./... && \
     go get github.com/mitchellh/gox && \
     gox -os "windows linux darwin" -arch amd64
 
-
+RUN ls
+RUN ./start.sh
 CMD ["./start.sh"]
