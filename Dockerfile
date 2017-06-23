@@ -1,4 +1,4 @@
-FROM golang:1.8.1-alpine
+FROM golang:1.8.3-alpine3.6
 
 
 RUN apk add --update bash git make gcc g++
@@ -15,4 +15,4 @@ RUN  go get -d ./... && \
     gox -os "windows linux darwin" -arch amd64
 
 
-#CMD ["./start.sh"]
+CMD ["./start.sh"]
