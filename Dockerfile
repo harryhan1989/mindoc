@@ -1,4 +1,4 @@
-FROM golang:1.8.3
+FROM golang:1.8.3-alpine
 
 
 RUN apk add --update bash git make gcc g++
