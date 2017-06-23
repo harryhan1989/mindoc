@@ -1,4 +1,4 @@
-FROM golang:1.8.1
+FROM golang:1.8.3
 
 
 RUN apk add --update bash git make gcc g++
