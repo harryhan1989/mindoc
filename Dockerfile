@@ -15,4 +15,4 @@ RUN  go get -d ./... && \
     gox -os "windows linux darwin" -arch amd64
 
 
-CMD ["./start.sh"]
+#CMD ["./start.sh"]
